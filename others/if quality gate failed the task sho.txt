@@ -1,0 +1,2 @@
+if quality gate failed the task should go in draftagain if succesfull go in comment 
+after code review go in backlock6

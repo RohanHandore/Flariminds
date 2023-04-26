@@ -1,0 +1,51 @@
+.integrationContainer {
+	padding-left: 0px;
+}
+
+.darkContainer {
+	background-color: var(--dark-theme-bg-color-primary);
+}
+
+.lightContainer {
+	background-color: var(--light-theme-bg-color-primary);
+}
+
+.head {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.integrationTitle {
+	font-weight: 500;
+	color: #00F6A3;
+}
+
+.sideButton {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chatContentBox {
+	margin-top: 10px;
+}
+
+@media screen and (min-height: 760px) {
+	.stepbarContainer {
+		margin: 5px 0px;
+	}
+}
+
+@media screen and (min-height: 1140px) {
+	.stepbarContainer {
+		margin: 20px 0px ;
+	}
+	.chatContentBox{
+		margin-top: 10px;
+	}
+}
+/* 
+@media screen and (min-height: 1900px) {
+	.stepbarContainer {
+		margin: 30px 0px ;
+	}
+} */

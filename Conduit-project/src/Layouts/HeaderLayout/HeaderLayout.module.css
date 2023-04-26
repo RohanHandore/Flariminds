@@ -1,0 +1,27 @@
+.container {
+    background-color: var(--light-theme-bg-color-primary);
+    align-items: center;
+    max-width: 98%;
+    height: 4.5vh;
+    display: flex;
+    margin-top: 5px;
+}
+
+.darkContainer {
+    background-color: var(--dark-theme-bg-color-primary);
+}
+
+.title {
+    font-family: 'DM Sans';
+    color: #00F6A3;
+    font-weight: 500;
+}
+
+@media screen and (min-height: 1537px) {
+    .title {
+        font-size: 40px;
+    }
+    .container{
+        margin: 2vh 0px;
+    }
+}

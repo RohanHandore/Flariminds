@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+.container {
+    background-color: var(--light-theme-card-color-primary);
+    color: var(--light-theme-text-color-primary);
+    font-family: 'DM Sans';
+    border-radius: 8px;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.darkContainer {
+    background-color: var(--dark-theme-card-color-primary);
+    color: var(--dark-theme-text-color-primary);
+}
+
+.headContainer {
+    padding: 0 0 4vh 0;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.dateText {
+    font-size: x-small;
+}
+
+.price {
+    font-size: medium;
+}
+
+.category {
+    font-size: xx-small;
+    opacity: 0.6;
+}
+
+.bottamLine {
+    border-style: solid;
+    border-image: linear-gradient(to right, #2C82FF, #00F6A3);
+    border-image-slice: 1;
+    border-image-width: 0 0 1px 0;
+    width: 100%;
+}
+
+.unitsContainer {
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .heading {
+        font-size: 9px;
+    }
+
+    .dateText {
+        font-size: 7px;
+    }
+    
+    .price {
+        font-size: 9px;
+    }
+    
+    .category {
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-height: 750px) {
+    .heading {
+        font-size: large;
+    }
+
+    .dateText {
+        font-size: small;
+    }
+    
+    .price {
+        font-size: large;
+    }
+    
+    .category {
+        font-size: x-small;
+    }
+}
+
+@media screen and (min-height: 950px) {
+    .heading {
+        font-size: x-large;
+    }
+
+    .dateText {
+        font-size: medium;
+    }
+    
+    .price {
+        font-size: x-large;
+    }
+    
+    .category {
+        font-size: small;
+    }
+}
+
+@media screen and (min-height: 1150px) {
+    .heading {
+        font-size: xxx-large;
+    }
+
+    .dateText {
+        font-size: xx-large;
+    }
+    
+    .price {
+        font-size: xxx-large;
+    }
+    
+    .category {
+        font-size: large;
+    }
+}

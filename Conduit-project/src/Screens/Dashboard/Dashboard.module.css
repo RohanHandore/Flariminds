@@ -1,0 +1,83 @@
+.dark_body {
+    background-color: var(--dark-theme-bg-color-primary);
+    padding-left: 0px;
+}
+
+.light_body {
+    background-color:var(--light-theme-bg-color-primary);
+    padding-left: 0px;
+}
+
+.headBox {
+    max-width: 87%;
+    margin:auto;
+    padding: 5px 0;
+    font-size: medium;
+}
+
+.dashboardTitle {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #00F6A3;
+}
+
+.dark_background_col {
+    display: flex;
+    padding: 3px 5px;
+    background-color: #1F282A;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.light_background_col {
+    display: flex;
+    padding: 3px 5px;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+}
+ 
+.calender {
+    padding: 1px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.overviewContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2% 0rem 1%; */
+}
+
+.salesContainer{
+    display: flex;
+    margin-top: 1vh;
+    height: 22vh;
+}
+
+.funnelContainer {
+    margin-top: 1vh;
+}
+
+.customerTableContainer {
+    margin-top: 1vh;
+    height: 25vh;
+}
+
+@media only screen and (min-height: 750px) {
+    .salesContainer{
+        margin-top: 3vh;
+    }
+
+    .funnelContainer{
+        margin-top: 3vh;
+    }
+    
+    .customerTableContainer {
+        margin-top: 3vh;
+        min-height: 28vh;
+    }
+}

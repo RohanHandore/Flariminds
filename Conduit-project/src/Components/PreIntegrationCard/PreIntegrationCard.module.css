@@ -1,0 +1,120 @@
+.cardContainer {
+  height: 100%;
+  border-radius: 8px;
+  padding: 2vh 0;
+  display: flex;
+}
+
+.cardDark {
+  background-color: var(--dark-theme-card-color-primary);
+  color: #ffffff;
+}
+
+.cardLight {
+  background-color: var(--light-theme-card-color-primary);
+  color: #363636;
+}
+
+.firstBlock {
+  min-width: 50%;
+  padding: 0 2vw 0 3vw;
+}
+
+/* 
+.column1 {
+    display: flex;
+    align-items: end;
+}
+*/
+
+.cardName {
+  font-size: 1.5vw;
+}
+
+.title {
+  font-size: 1vw;
+  padding: 0 0 15px 0;
+  overflow-wrap: break-word;
+  /* padding-top: 3vh; */
+  min-height: 50px;
+  /* max-height: 75px; */
+}
+/* 
+.titleBox {
+    padding-top: 40px;
+    justify-content: space-between;
+} */
+
+.status {
+  font-size: 2vw;
+  padding: 5px;
+}
+
+/* .statusProgressBar {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.vertical_line {
+  /* position: absolute; */
+  width: 0px;
+  height: 100%;
+  border: 1px solid #363636;
+  /* left: 50%; */ 
+}
+
+.statusBox {
+  align-items: center;
+  display: flex;
+  font-size: 0.8vw;
+  padding-bottom: 2px;
+}
+
+.statusLine {
+  height: 5vh;
+  width: 7px;
+  border: 1px solid #616161;
+  background-color: #616161;
+}
+
+.topStatusLine {
+  border-radius: 3px 3px 0px 0px;
+}
+
+.bottomStatusLine {
+  border-radius: 0px 0px 3px 3px;
+}
+
+.statusActive {
+  border: 1px solid #09de85;
+  background:  linear-gradient(82.75deg, #00F6A3 -68.54%, #2C82FF 240.95%);
+}
+
+.statusStyleLine {
+  /* margin-left: 15px; */
+}
+.statusStyleContent {
+  margin-left: 1.4vw;
+  font-size: 0.8vw;
+}
+
+@media screen and (max-height: 570px) {
+  .cardContainer{
+    min-height: 120px;
+  }
+  .title {
+    min-height: 6vh;
+  }
+}
+
+@media screen and (min-width: 717px) {
+  .cardContainer{
+    height: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cardContainer{
+    height: 90%;
+  }
+}

@@ -1,0 +1,26 @@
+name: lifeactions-ga CICD
+
+on:
+  push:
+    branches: [ "rohan" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install dependencies
+      run: npm install
+    - name: Deploy code to EC2
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ec2-user
+        key: ${{ secrets.EC2_PRIVATE_KEY }}
+        script: |
+          cd lifeactions-BEE/lifeactions-parse
+          echo "connected to ec2"
+          ls
+          ./lifeaction-script.sh
+          

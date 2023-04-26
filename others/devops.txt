@@ -1,0 +1,31 @@
+
+creating ec2 instance 
+maually deploy githubcode on ec2
+git hub workflow to check build errors on code merge
+gir hub workflow to deploy code on ec2 on codemerge
+
+how github actions works
+
+cicd
+
+
+
+suspect crop auto carry yellow version check tent excite join there oven use bless sponsor one peanut charge day bright pitch anger shift salad celery
+
+
+rohan.handore@flairminds.com
+password: Rohan@1234
+
+ucd
+aws cloud practioner
+why do we start srever from pm2 how to do it
+
+npm i -g aws-cdk 
+
+ssh -i "shubham.pem" ec2-user@ec2-35-154-75-54.ap-south-1.compute.amazonaws.com
+
+35.154.75.54
+
+ec2-user
+
+346408882575

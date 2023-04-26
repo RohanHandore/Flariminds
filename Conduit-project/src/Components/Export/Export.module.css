@@ -1,0 +1,37 @@
+.exportContainer {
+    color: var(--light-theme-text-color-primary);
+    background-color: var(--light-theme-card-color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.7rem;
+    display: flex;
+    height: 100%;
+}
+
+
+.darkExportBox {
+    color: var(--dark-theme-text-color-primary);
+    background-color: var(--dark-theme-card-color-primary);
+}
+
+.imgEdit {
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+.exportText {
+    font-size: 2vh;
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 1441px) {
+    .exportContainer {
+        padding: 1rem;
+    }
+    .exportText {
+        font-size: 1.6vh;
+    }
+}
+

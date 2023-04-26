@@ -1,0 +1,30 @@
+
+.customerStatusPanel{
+    color: #616161;
+    border-bottom: 1px solid #616161;
+    padding: 0.5rem 0rem
+}
+.customerStatusPanelActive{
+    color:#02E7FF;
+    padding: 0.5rem 0rem;
+    /* border-bottom: 2px solid #02E7FF; */
+    border-style: solid;
+    border-image: linear-gradient(to right, #2C82FF, #00F6A3);
+    border-image-slice: 1;
+    border-image-width: 0 0 2px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+    .title {
+        font-size: 10px;
+        line-height: 5px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .title {
+        font-size: 30px;
+        line-height: 70px;
+    }
+}

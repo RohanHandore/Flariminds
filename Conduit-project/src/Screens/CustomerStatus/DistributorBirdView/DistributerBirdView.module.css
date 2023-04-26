@@ -1,0 +1,438 @@
+.dark_integration {
+  background-color: var(--dark-theme-bg-color-primary);  
+  padding-left: 0px;
+}
+
+.light_integration {
+  background-color:var(--light-theme-bg-color-primary); 
+  padding-left: 0px;
+}
+
+.distributedStatus{
+  background: linear-gradient(101.9deg, #00F6A3 12.68%, #2C82FF 97.05%);
+  color: white;
+  border-radius: 8px;
+  height:10vh;
+  margin:1vh 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.earningCardDark{
+  background-color: var(--dark-theme-card-color-primary);
+  color: white;
+  height: 22vh;
+  border-radius: 8px;
+  margin: 1vh 0rem; 
+  padding: 0px 20px;
+}
+
+.earningCardLight{
+  background-color: var(--light-theme-card-color-primary);
+  color: #363636;
+  height: 22vh;
+  border-radius: 8px;
+  margin: 1vh 0rem;
+  padding: 0px 20px;
+}
+
+.distributedContainer{
+  padding: 4% 4%;
+}
+
+.distributedSalesCardDark{
+  background: var(--dark-theme-card-color-primary);
+  color: white;
+  border-radius: 8px;
+  margin:1vh 0px;
+  padding: 16px 5%;
+  height: 18vh;
+}
+
+.distributedSalesCardLight{
+  background: var(--light-theme-card-color-primary);
+  color: #363636;
+  border-radius: 8px;
+  margin:1vh 0px;
+  padding: 16px 5%;
+  height: 18vh;
+}
+
+.distributedStoreListDark{
+  background: var(--dark-theme-card-color-primary);
+  border-radius: 8px;
+  height: 41vh;
+  color: white;
+  padding: 1vh 0.5vw;
+  overflow: scroll;
+}
+
+.distributedStoreListLight{
+  background: var(--light-theme-card-color-primary);
+  border-radius: 8px;
+  height: 41vh;
+  color: #363636;
+  padding: 1vh 0.5vw;
+  overflow: scroll;
+}
+
+.divisionBreaker{
+  height: 0.1rem;
+  background-color: #4B4B4B;
+  margin: 0.5rem 0rem;
+}
+
+.logoContainer{
+  background-color: #4B4B4B;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* padding: 1.5rem 0rem; */
+}
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 30px !important;
+}
+tr{
+  text-align: center;
+}
+td, th {
+  padding: 8px;
+}
+td:nth-child(1) {
+  text-align: left;
+}
+th:nth-child(1){
+  text-align: left;
+}
+td,th{
+  padding: 1.3rem 1rem;
+  font-size: larger;
+} */
+.distributedTable {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 30px !important;
+}
+
+.distributedTr{
+  text-align: center;
+}
+
+.distributedTd, .distributedTh {
+  padding: 1rem !important;
+}
+
+.distributedTd:nth-child(1) {
+  text-align: left;
+}
+
+.distributedTh:nth-child(1){
+  text-align: left;
+}
+
+.distributedTd,.distributedTh{
+  padding: 0.25rem 0.25rem;
+  font-size: large;
+} 
+
+.dataContentStock{
+  background-color: #292929;
+  border-radius: 8px;
+  padding: 7px 3px;
+}
+
+.allianceCardDark{
+  background-color:var(--dark-theme-card-color-primary);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.allianceCardLight{
+  background-color:var(--light-theme-card-color-primary);
+  color: #363636;
+  padding: 0.8rem 1rem;
+  border-radius: 0.25rem solid;
+}
+
+.dashbordBtn{
+  color: #00F6A3;
+  margin: 0rem 2rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.navIcons{
+  margin: 0rem 0.5rem;
+}
+
+.multiProgress{
+  border-radius: 3rem;
+  height: 0.5rem;
+  margin-top: 3vh !important;
+}
+
+.circle {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #09DEB7;
+}
+
+.circleBorder {
+  position: relative;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  margin-left: 30%;
+  border-radius: 100%;
+  background-color: #E53B3B;
+  background: linear-gradient(270deg, #FFFFFF 50%, transparent 50%), linear-gradient(0deg, #FFFFFF 50%, #13FA99 50%)
+}
+
+.chart {
+  /* max-height: 290px;
+  max-width: 100%; */
+  height: 13vh !important;
+  width: 100% !important;
+}
+
+.statusTitle{
+ font-size: small;
+}
+.statusText{
+  font-size: large;
+}
+.earningDropdown{
+  background-color: #616161;
+  border: none;
+  color: white;
+  font-size: 10px;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+.earningList{
+  margin: 0.5rem 0.8rem !important;
+  font-size: 13px;
+}
+.earningCardHeader{
+  font-size: medium;
+}
+.earningValue{
+  font-size: medium;
+}
+.storesListItem{
+  padding: 1rem 0rem !important;
+  font-size: small;
+}
+.tableHeaders{
+  font-size: large;
+  font-weight: 500;
+  padding: 0.5rem 0rem;
+}
+.storesListSubHeader{
+  font-size: large;
+}
+.storesListSubText{
+  font-size: medium;
+}
+.salesHeader{
+  font-size: large;
+}
+.storeListContentItem{
+  padding: 6% 1% !important;
+}
+
+
+/* @media only screen and (min-height: 1790px) {
+  .distributedTd,.distributedTh{
+    font-size: xx-large;
+  }
+  .storesListItem{
+    font-size: xx-large;
+  }
+  .statusTitle{
+    font-size: xx-large;
+  }
+  .statusText{
+    font-size: xx-large;
+  }
+  .tableHeaders{
+    font-size: xx-large;
+  }
+  .earningCardHeader{
+    font-size: x-large;
+  }
+  .storesListSubHeader{
+    font-size: xx-large;
+  }
+  .storesListSubText{
+    font-size: x-large;
+  }
+  .earningList{
+    font-size: larger;
+  }
+  .earningValue{
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .multiProgress{
+    margin-top: 6vh !important;
+  }
+  .salesHeader{
+    font-size: xx-large;
+  }
+  .distributedStoreListDark{
+    height: 46vh;
+  }
+} */
+
+
+
+@media only screen and (min-height: 1537px) {
+  .multiProgress {
+    margin-top: 6vh !important;
+  }
+  .chart {
+    margin-top: 3vh;
+  }
+  .distributedContainer {
+    padding: 4% 4% !important;
+  }
+}
+
+@media only screen and (min-height: 835px){
+  .statusTitle{
+    font-size: small;
+   }
+   .statusText{
+     font-size: small;
+   }
+}
+
+@media only screen and (min-height: 768px) {
+  .distributedContainer {
+    padding: 2% 4%;
+  }
+}
+
+@media only screen and (min-height: 717px) {
+  .salesHeader{
+    font-size: small;
+  }
+  .salesHeader {
+    line-height: 22px;
+  }
+  .chart {
+    height: 15vh !important;
+   }
+   .earningValue{
+    font-size: medium;
+    line-height: 20px !important;
+   }
+   .distributedTd .distributedTh  .distributedTr .storesListSubHeader .storesListSubText{
+    font-size: medium;
+   }
+}
+@media only screen and (max-height: 538px) {
+  .chart {
+    height: 17vh !important;
+  }
+  .navIcons {
+    height: 5vh;
+  }
+  .dashbordBtn {
+    font-size: medium;
+  }
+  .allianceCardDark{
+    padding: 0.4rem 1rem;
+  }
+  .allianceCardLight {
+    padding: 0.4rem 1rem;
+  } 
+  .userName {
+    font-size: 10px;
+  }
+  .role {
+    font-size: 10px;
+  }
+  .salesHeader{
+    font-size: 10px;
+  }
+  .multiProgress {
+    margin-top: 1vh !important;
+  }
+  .storesListItem{
+    font-size: 7px;
+  }
+  .earningValue{
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .circle{
+    width: 35px;
+    height: 35px;
+  }
+  .circleBorder {
+    width: 41px;
+    height: 41px;
+    margin-top: 2px;
+    margin-left: 10px;
+  }
+  .statusText{
+    font-size: 10px;
+  }
+  .statusTitle {
+    font-size: 8px;
+  }
+  .earningCardHeader{
+    font-size: 10px;
+  }
+  .earningValue{
+    font-size: 10px;
+    line-height: 0px;
+  }
+  .earningCardDark{
+    padding: 0px 12px;
+  }
+  .earningCardLight{
+    padding: 0px 12px;
+  }
+  .earningList {
+    margin: 0.7rem 0.5rem;
+    font-size: 7px;
+  }
+  .earningDropdown {
+    font-size: 7px;
+  }
+  .listBox {
+    padding: 0px;
+  }
+  .tableHeaders {
+    font-size: 11px;
+    padding: 0rem;
+  }
+  .distributedTh, .distributedTd, .storesListSubHeader, .storesListSubText {
+    font-size: 8px;
+  }
+  .logoContainer {
+    height: 30px;
+    width: 30px;
+  }
+  .cardBody {
+    margin-top: 0.5rem  !important;
+    margin-bottom: 0.5rem  !important;
+
+  }
+  
+}
+

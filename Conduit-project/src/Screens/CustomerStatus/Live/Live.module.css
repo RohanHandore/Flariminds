@@ -1,0 +1,56 @@
+.container {
+    margin: 10px;
+}
+
+.liveTitle {
+    font-weight: 500;
+    color: #00F6A3;
+}
+
+.dark_live {
+    background-color: var(--dark-theme-bg-color-primary);  
+    padding-left: 0px;
+}
+
+.light_live {
+      background-color:var(--light-theme-bg-color-primary); 
+      padding-left: 0px;
+}
+
+.chartBox {
+    padding: 5px 5px 0rem 0rem;
+    margin-top: 5px;
+}
+
+.goBackContainer {
+    padding: 5px 0px;
+}
+ /* .card {
+    padding: 0px 20px;
+ } */
+
+
+ 
+
+ @media screen and (min-height: 538px) {
+    .chartBox {
+        margin-top: 0vh;
+    }
+    .goBackContainer {
+        padding: 0px;
+    }
+ }
+
+ @media screen and (min-height: 760px) {
+    .chatContainer {
+        margin-top: 1vh;
+    }
+ }
+ @media screen and (min-width: 2560px) {
+    .liveTitle {
+        font-size: 30px;
+    }
+    .goBackContainer {
+        padding: 20px 0px;
+    }
+ }

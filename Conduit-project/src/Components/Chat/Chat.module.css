@@ -1,0 +1,249 @@
+.containerDark {
+    color: var(--light-theme-bg-color-primary) ;
+}
+
+.containerLight {
+    color: var(--dark-theme-bg-color-primary) ;
+}
+
+.chatContainerDark {
+    background: var(--dark-theme-card-color-primary);
+    border-radius: 8px;
+    min-height: 300px;
+    padding: 0px;
+}
+
+.chatContainerLight {
+    background: var(--light-theme-card-color-primary);
+    border-radius: 8px;
+    min-height: 300px;
+    padding: 0px;
+}
+
+.todayContainer {
+    color: #303E41;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.dayLine {
+    height: 0px;
+    border: 1px solid #303E41;
+}
+
+.chatMenuContainer {
+    background: #1A2223;
+    height: 60px;
+    margin: 8vh 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.inputBox {
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    opacity: 0.5;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    background: #303E41;
+    border: none;
+    border-radius: 80px;
+    color: #FFFFFF;
+}
+
+.userMessage {
+    background: linear-gradient(92.98deg, #00F6A3 -2.15%, #2C82FF 98.75%);
+    border-radius: 30px 30px 0px 30px;
+    padding: 7px 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.clientMessage {
+    background: #303E41;
+    border-radius: 30px 30px 30px 0px;
+    padding: 7px 25px;
+}
+
+.userMessageContainer {
+    display: flex;
+    justify-content:end ;
+}
+
+.clientMessageContainer {
+    display: flex;
+    justify-content:start;
+}
+
+.messageBox {
+    padding: 10px;
+}
+
+.clientName {
+  color: #94C2FF;
+  font-size: 16px;
+}
+
+.orgName {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.avatar {
+    height: 50px;
+}
+
+.userTime {
+    display: flex;
+    justify-content: end;
+    color: #616161;
+    font-size: 12px;
+}
+
+.clientTime {
+    font-size: 12px;
+    color: #616161;
+    padding-left: 50px;
+}
+
+@media screen and (min-height: 768px) {
+    .chatMenuContainer {
+        margin: 2vh 0vh 0vh 0vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    .comment {
+        font-size: 12px;
+    }
+    .todayContainer {
+        padding-top: 0px;
+    }
+    .userMessage {
+        font-size: 8px;
+    }
+    .clientMessage {
+        font-size: 8px;
+        padding: 5px 15px;
+    }
+    .clientName{
+        font-size: 10px;
+    }
+    .orgName {
+        font-size: 8px;
+    }
+    .icon {
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+    .chatMenuContainer {
+       height: 40px;
+       margin: 0px;
+    }
+    .inputBox {
+        height: 10px;
+        padding: 12px;
+    }
+    .userTime {
+        font-size: 7px;
+    }
+    .avatar {
+        height: 30px;
+    }
+    .clientTime {
+        font-size: 7px;
+        padding: 0px 0px 0px 30px;
+    }
+    .chatContainerDark{
+        min-height: 0px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .chatContainerDark{
+        min-height: 0px;
+    }
+    .chatContainerLight{
+        min-height: 0px;
+    }
+    .icon {
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+    .chatMenuContainer {
+       height: 40px;
+       margin: 0px;
+    }
+    .inputBox {
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .comment {
+        font-size: 25px;
+        margin: 1vh 0px 10px ;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .comment {
+        font-size: 30px;
+        margin: 35px 0px 20px ;
+    }
+    .icon {
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+    }
+    .chatMenuContainer {
+       height: 80px;
+    }
+    .inputBox {
+        height: 30px;
+    }
+     .todayContainer {
+        padding-top: 20px;
+    }
+    .userMessage {
+        font-size: 20px;
+    }
+    .clientMessage {
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+    .clientName{
+        font-size: 15px;
+    }
+    .orgName {
+        font-size: 12px;
+    }
+    .today {
+        font-size: 25px;
+    }
+    .avatar {
+        height: 80px;
+    }
+    .clientTime {
+        font-size: 10px;
+        padding-left: 80px;
+    }
+    .chatContainerDark {
+        min-height: 200px;
+    }
+    .chatMenuContainer {
+        margin: 18vh 0px 0px 0px;
+    }
+} 

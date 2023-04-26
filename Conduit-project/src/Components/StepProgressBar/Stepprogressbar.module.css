@@ -1,0 +1,56 @@
+.container {
+}
+
+.circle {
+	height: 4vw;
+	width: 4vw;
+	border-radius: 50%;
+	border: 5px solid #363636;
+}
+
+.circleDone {
+	border: 5px solid #09DE85;
+}
+
+.circleActive {
+	border: 5px solid #09DE85;
+	border-bottom-color: #363636;
+	transform: rotate(135deg);
+}
+
+.barClass {
+	width: 100%;
+	border-radius: 0px;
+	border: 0px solid #09DE85;
+	color: red;
+	height: 0.5vw;
+}
+
+.barClassContainer {
+	width: 100%;
+}
+
+.progressBarBox {
+	padding: 0;
+	/*
+     margin: 0;
+    justify-content: center; */
+
+	align-items: center;
+	font-family: 'DM Sans';
+	display: flex;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.8vw;
+	/* line-height: 140%; */
+	/* or 22px */
+	text-align: center;
+	color: #616161;
+}
+
+@media screen and (max-width: 1024px) {
+	.circle {
+		height: 4.5vw;
+		width: 4.5vw;
+	}
+}

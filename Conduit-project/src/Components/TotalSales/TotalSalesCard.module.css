@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+.container {
+    background-color: var(--light-theme-card-color-primary);
+    color: var(--light-theme-text-color-primary);
+    font-family: 'DM Sans';
+    border-radius: 8px;
+    height: 100%;
+    padding: 1vh 0;
+    width: 100%;
+}
+
+.darkContainer {
+    background-color: var(--dark-theme-card-color-primary);
+    color: var(--dark-theme-text-color-primary);
+}
+ 
+.textPart {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.headContainer {
+    padding: 0 0 4vh 0;
+}
+
+.totalSalesTop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    display: inline-block;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.sub {
+    display: inline-block;
+    font-weight: 500;
+    font-size: x-small;
+    color: #00F6A3;
+    padding: 0 5px;
+}
+
+.dateText {
+    font-weight: 500;
+    font-size: x-small;
+    margin-top: 1vh;
+    color: var(--light-theme-text-color-primary);
+}
+
+.darkDateText {
+    color: var(--dark-theme-text-color-primary);
+}
+
+.priceCap {  
+    font-weight: 500;
+    font-size: medium;
+}
+
+.rate {
+    font-style: normal;
+    font-size: xx-small;
+    color: #00F6A3;
+}
+
+.chartPart {
+    display: flex;
+    align-items: center;
+}
+
+.past {
+    font-size: xx-small;
+    margin-top: 1vh;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 0;
+    }
+    .headContainer {
+        padding: 0;
+    }
+    .main {
+        font-size: 9px;
+    }
+    .sub {
+        font-size: 7px;
+    }
+    .dateText {
+        font-size: 7px;
+        margin-top: 0.1vh;
+    }
+    .priceCap {
+        font-size: 9px;
+    }
+    .rate {
+        font-size: 7px;
+    }
+    .past {
+        font-size: 7px;
+        margin-top: 0.1vh;
+    }
+}
+
+@media screen and (min-height: 750px) and (min-width: 1150px) {
+    .main {
+        font-size: large;
+    }
+    .sub {
+        font-size: small;
+    }
+    .dateText {
+        font-size: small;
+    }
+    .priceCap {
+        font-size: large;
+    }
+    .rate {
+        font-size: x-small;
+    }
+    .past {
+        font-size: x-small;
+    }
+}
+
+@media screen and (min-height: 950px) {
+    .main {
+        font-size: x-large;
+    }
+    .sub {
+        font-size: medium;
+    }
+    .dateText {
+        font-size: medium;
+    }
+    .priceCap {
+        font-size: x-large;
+    }
+    .rate {
+        font-size: small;
+    }
+    .past {
+        font-size: small;
+    }
+}
+
+@media screen and (min-height: 1150px) {
+    .main {
+        font-size: xxx-large;
+    }
+    .sub {
+        font-size: xx-large;
+    }
+    .dateText {
+        font-size: xx-large;
+    }
+    .priceCap {
+        font-size: xxx-large;
+    }
+    .rate {
+        font-size: x-large;
+    }
+    .past {
+        font-size: x-large;
+    }
+}

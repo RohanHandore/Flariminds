@@ -1,0 +1,90 @@
+:root {
+    --dark-text-color: #FFFFFF;
+    --light-text-color: #000000;
+}
+
+.cardContainer {
+    margin-top: 25px;
+    min-height: 200px;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-size: 12px;
+    padding: 15px 5px;
+}
+
+.dark_cards{
+    background-color: var(--dark-theme-card-color-primary);
+    color: var(--dark-text-color);
+}
+
+.light_cards {
+    background-color: var(--light-theme-card-color-primary);
+    color: var(--light-text-color);
+}
+
+.checkBoxCol {
+    padding: 10px 10px 10px 20px;
+}
+
+.inputBox {
+    border: 1.5px solid #09DE85;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: var(--dark-theme-card-color-primary);
+    color: var(--dark-text-color);
+    margin-top: 8px;
+    font-size: 12px;
+    width: 75%;
+}
+
+.cardInput {
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-height: 538px) and (max-height:716px) {
+    .cardContainer {
+        margin-top: 10px;
+        min-height: 120px;
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (min-height: 768px) {
+    .cardContainer {
+        margin-top: 5px;
+        min-height: 22vh;
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (min-height: 717px) and (max-height:767px) {
+    .cardContainer {
+        margin-top: 5px;
+        min-height: 26vh;
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .inputBox {
+        padding: 5px 10px;
+        width: 50%;
+    }
+}
+
+.contentBox {
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-height: 1537px) {
+    .cardContainer {
+        margin-top: 30px;
+        min-height: 18vh;
+        padding: 5px 5px;
+    }
+}

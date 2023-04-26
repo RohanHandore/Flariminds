@@ -1,0 +1,31 @@
+.distributorEyeCard{
+    /* padding: 1rem 0.5rem; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:10vh;
+    margin:1vh 0px;
+}
+.darkDistributorCard{
+    background-color: #363636;
+    color: #FFFFFF;
+}
+.lightDistributorCard{
+    background-color: #FAFAFA;
+    color: #363636;
+}
+.distributedStats{
+    font-size: large;
+    font-weight: 500;
+}
+.eyeCardhead{
+    font-size: medium !important;
+}
+
+@media only screen and (max-height: 538px){
+    .eyeCardhead {
+        font-size: 12px !important;
+    }   
+    
+}

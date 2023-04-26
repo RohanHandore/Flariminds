@@ -1,0 +1,18 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1341.0",
+    "file-type": "^18.2.1",
+    "gm": "^1.25.0",
+    "sharp": "^0.31.3",
+    "uuid": "^9.0.0"
+  }
+}

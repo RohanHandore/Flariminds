@@ -1,0 +1,22 @@
+.dark_body {
+    background-color: var(--dark-theme-bg-color-primary);
+    padding-left: 0px;
+}
+
+.light_body {
+    background-color:var(--light-theme-bg-color-primary);
+    padding-left: 0px;
+}
+.salesContainer{
+    display: flex;
+    margin-top: 1vh;
+    height: 22vh;
+}
+.btnsContainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    background-color:#1F282A ;
+}

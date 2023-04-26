@@ -1,0 +1,17 @@
+.goBackTitleDark {
+    color: #FFFFFF;
+    margin: 1px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.goBackTitleLight {
+    color: #363636;
+    margin: 1px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.goBackBox {
+    align-items: center;
+}

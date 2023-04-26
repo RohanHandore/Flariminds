@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+.container {
+    color: #000000;
+}
+
+.darkContainer {
+    color: #FFFFFF;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: large;
+}
+
+.subHeading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: small;
+    color: #A7A7A7;
+}
+
+.vertical_line {
+    position: absolute;
+    width: 0px;
+    height: 96%;
+    border: 1px solid #5B5B5B;
+}
+
+.lineGap {
+    padding-left: 15px;
+}
+
+.chartMakeOver {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.line {
+    padding-left: 0px !important;
+    height: 15vh !important;
+    width: 100% !important;
+}
+
+.statsContainer {
+    margin-top: 2vh;
+}
+
+.funnelStatTitle {
+    font-size: small;
+}
+
+.funnelStatPrice {
+    font-size: small;
+}
+
+.funnelStatActivity {
+    font-size: xx-small !important;
+    opacity: 0.6;
+}
+
+.funnelStatValue {
+    font-size: xx-small !important;
+    color: #FFCC00;
+}
+
+.funnelStatPercent {
+    font-size: xx-small !important;
+    margin-top: 2vh;
+}
+
+.chartPart {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .heading {
+        font-size: 12px;
+    }
+    .subHeading {
+        font-size: 10px;
+    }
+    .funnelStatTitle {
+        font-size: 11px;
+    }
+    .funnelStatPrice {
+        font-size: 11px;
+    }
+    .funnelStatActivity {
+        font-size: 10px !important;
+    }
+    .funnelStatValue {
+        font-size: 10px !important;
+    }
+    .funnelStatPercent {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-height: 1150px) {
+    .heading {
+        font-size: xxx-large;
+    }
+    .subHeading {
+        font-size: x-large;
+    }
+    .funnelStatTitle {
+        font-size: xx-large;
+    }
+    .funnelStatPrice {
+        font-size: xx-large;
+    }
+    .funnelStatActivity {
+        font-size: x-large !important;
+    }
+    .funnelStatValue {
+        font-size: x-large !important;
+    }
+    .funnelStatPercent {
+        font-size: x-large !important;
+    }
+}
